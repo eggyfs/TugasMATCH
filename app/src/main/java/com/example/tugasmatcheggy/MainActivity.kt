@@ -14,17 +14,23 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun kocok() {
-        val randomCewek = Random().nextInt (3)+1
-        val randomCowok = Random().nextInt (3)+1
+        val randomCewek = Random().nextInt (6)+1
+        val randomCowok = Random().nextInt (6)+1
         val drawableResCowok = when(randomCowok){
-            1 -> R.drawable.cowok1
-            2 -> R.drawable.cowok2
-            else -> R.drawable.cowok3
+            1 -> R.drawable.filipus
+            2 -> R.drawable.hafid
+            3 -> R.drawable.haris
+            4 -> R.drawable.huda
+            5 -> R.drawable.iav
+            else -> R.drawable.luhur
         }
         val drawableResCewek = when(randomCewek){
-            1 -> R.drawable.cewek1
-            2 -> R.drawable.cewek2
-            else -> R.drawable.cewek3
+            1 -> R.drawable.ayu
+            2 -> R.drawable.faliz
+            3 -> R.drawable.fuji
+            4 -> R.drawable.hanum
+            5 -> R.drawable.mela
+            else -> R.drawable.umi
         }
         eggy1.setImageResource(drawableResCowok)
         eggy2.setImageResource(drawableResCewek)

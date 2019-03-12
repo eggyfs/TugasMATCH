@@ -13,9 +13,9 @@
                   android:layout_height="wrap_content"
                   android:orientation="horizontal">
 
-        <ImageView android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:src="@drawable/cowok2"
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="90dp"
+                   android:src="@drawable/filipus"
                    android:layout_gravity="center_horizontal"
                    android:id="@+id/eggy1"
                    android:layout_weight="1"/>
@@ -24,20 +24,23 @@
                   android:layout_height="match_parent"
                   android:gravity="center"
                   android:text="VS"
+                  android:textColor="@color/colorAccent"
                   android:textSize="30dp"/>
 
-        <ImageView android:layout_width="wrap_content"
-                   android:layout_height="match_parent"
-                   android:src="@drawable/cewek1"
+        <ImageView android:layout_width="100dp"
+                   android:layout_height="90dp"
+                   android:src="@drawable/ayu"
                    android:layout_gravity="center_horizontal"
                    android:id="@+id/eggy2"
                    android:layout_weight="1"/>
     </LinearLayout>
 
     <Button android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:text="MATCH"
             android:id="@+id/eggy3"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="50dp"
             android:layout_gravity="center"/>
 
 </LinearLayout>
